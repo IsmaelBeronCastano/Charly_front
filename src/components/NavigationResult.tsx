@@ -19,7 +19,7 @@ const NavigationResult = () => {
     return (
         <div>
           <NavigationBar onSelect={fetchData} />
-          <div className="w-2/2 m-4 p-4 border rounded overflow-auto">
+          <div className="w-2/2 m-4 p-4 border rounded overflow-auto max-w-[100%]">
             <pre className="whitespace-pre-wrap break-words">{JSON.stringify(data, null, 2)}</pre>
           </div>
         </div>

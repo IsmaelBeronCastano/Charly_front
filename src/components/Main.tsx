@@ -3,7 +3,7 @@ import NavigationResult from './NavigationResult'
 
 const Main = () => {
   return (
-    <div className="flex justify-center flex-col md:flex-row">
+    <div className="flex justify-center flex-col md:flex-row w-full">
         <img className="w-full md:w-1/2 md:max-w-[50%] pl-1" src={Imagen} alt="charly portada clics modernos" />
         <section className="w-full flex justify-center items-center md:w-1/2 mb-10">
             <div>
