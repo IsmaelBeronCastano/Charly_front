@@ -17,7 +17,7 @@ const NavigationResult = () => {
     };
 
     return (
-      <div className="w-[500px]">
+      <div className="w-[450px]">
       <NavigationBar onSelect={fetchData} />
       <div className="w-full m-4 p-4 border rounded max-w-full" style={{ maxHeight: '500px', overflow: 'hidden' }}>
         <pre className="whitespace-pre-wrap break-words overflow-auto max-h-[400px]" style={{ maxHeight: '400px', overflowY: 'scroll' }}>{JSON.stringify(data, null, 2)}</pre>
