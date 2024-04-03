@@ -17,12 +17,13 @@ const NavigationResult = () => {
     };
 
     return (
-        <div>
-          <NavigationBar onSelect={fetchData} />
-          <div className="w-2/2 m-4 p-4 border rounded overflow-auto max-w-[100%]">
-            <pre className="whitespace-pre-wrap break-words">{JSON.stringify(data, null, 2)}</pre>
-          </div>
-        </div>
+      <div className="max-w-[500px]">
+      <NavigationBar onSelect={fetchData} />
+      <div className="w-full m-4 p-4 border rounded max-w-full" style={{ maxHeight: '500px', overflow: 'hidden' }}>
+        <pre className="whitespace-pre-wrap break-words overflow-auto max-h-[400px]" style={{ maxHeight: '400px', overflowY: 'scroll' }}>{JSON.stringify(data, null, 2)}</pre>
+      </div>
+    </div>
+    
       );
 
 }

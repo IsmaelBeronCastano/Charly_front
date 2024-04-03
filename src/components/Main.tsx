@@ -5,11 +5,14 @@ const Main = () => {
   return (
     <div className="flex justify-center flex-col md:flex-row w-full">
         <img className="w-full md:w-1/2 md:max-w-[50%] pl-1" src={Imagen} alt="charly portada clics modernos" />
-        <section className="flex justify-center items-center md:w-1/2 mb-10">
+        <section className="flex jusify-center items-center md:w-1/2 mb-10">
             <div className="text-left">
                 <p className="text-xl font-bold mt-3 mb-2 pl-1">Esta es una <span className="text-purple-400">API</span> donde poder consultar parte de la discografía de <span className="text-purple-600">Charly</span> en solitario</p>
                 <p className="text-xl font-bold mt-3 mb-2 pl-1">Desde Yendo de la cama al living hasta Random</p>
-                <NavigationResult />
+                <div className="max-h-[400px] overflow-hidden flex justify-center ">
+                  <NavigationResult />
+
+                </div>
                 <div id="api" className="mt-6 flex flex-col items-center justify-center">
                   <div className="text-left">
                     <p className="text-xl font-bold mt-3 mb-2">El uso es sencillo, añadir al endpoint: </p>
