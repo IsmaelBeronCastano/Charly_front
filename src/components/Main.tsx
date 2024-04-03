@@ -9,6 +9,10 @@ const Main = () => {
             <div className="text-left">
                 <p className="text-xl font-bold mt-3 mb-2 pl-1">Esta es una <span className="text-purple-400">API</span> donde poder consultar parte de la discografía de <span className="text-purple-600">Charly</span> en solitario</p>
                 <p className="text-xl font-bold mt-3 mb-2 pl-1">Desde Yendo de la cama al living hasta Random</p>
+                <p className="text-xl font-bold mt-3 mb-2 pl-1">Está en construcción, la información actual es ficticia</p>
+                <p className="text-xl font-bold mt-3 mb-2 pl-1">Poco a poco se irán subiendo más funcionalidades con información verificada y ampliada</p>
+                <p className="text-xl font-bold mt-3 mb-2 pl-1">¡Gracias!</p>
+
                 <div className="max-h-[400px] overflow-hidden flex justify-center w-full">
                   <NavigationResult />
                 </div>
