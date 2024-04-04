@@ -19,10 +19,12 @@ const Main = () => {
                 <div id="api" className="mt-6 flex flex-col items-center justify-center">
                   <div className="text-left">
                     <p className="text-xl font-bold mt-3 mb-2">El uso es sencillo, añadir al endpoint: </p>
-                    <p className="text-xl">https://charly-api2.up.railway.app/api/v2/discos</p> 
-                    <p className="mt-4"><span>Para el álbum: </span>/album/NombreDelAlbumEnPascalCase</p>
-                    <p><span>Para la fecha: </span>/fecha/1996</p>
+                    <p className="text-xl">https://charly-api2024.up.railway.app/api/v2/</p> 
+                    <p className="mt-4"><span>Para el álbum: </span>discos/album/NombreDelAlbumEnPascalCase</p>
+                    <p><span>Para la fecha: </span>discos/fecha/1996</p>
                     <p><span>Para la canción: </span>/cancion/TituloDeLaCancionEnPascalCase</p>
+                    <p><span>Para los músicos en cada disco: </span>/musicos</p>
+                    <p><span>Para buscar músicos por nombre: </span>/musicos/NombreApellidoEnPascalCase</p>
                   </div>
                 </div>
             </div>
