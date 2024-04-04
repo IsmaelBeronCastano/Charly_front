@@ -24,7 +24,7 @@ const Main = () => {
                     <p className="text-xl">https://charly-api2024.up.railway.app/api/v2/</p> 
                     <p className="mt-4"><span>Para el álbum: </span>discos/album/NombreDelAlbumEnPascalCase</p>
                     <p><span>Para la fecha: </span>discos/fecha/1996</p>
-                    <p><span>Para la canción: </span>/cancion/TituloDeLaCancionEnPascalCase</p>
+                    <p><span>Para la canción: </span>discos/cancion/TituloDeLaCancionEnPascalCase</p>
                     <p><span>Para buscar músicos por nombre: </span>/musicos/NombreApellidoEnPascalCase</p>
                   </div>
                 </div>
