@@ -8,7 +8,7 @@ const NavigationResult = () => {
 
     const fetchData = async (endpoint: string) => {
       try {
-        const response = await axios.get(`https://charly-api2.up.railway.app/api/v2/discos/${endpoint}`);
+        const response = await axios.get(`https://charly-api2024.up.railway.app/api/v2/discos/${endpoint}`);
         setData(response.data);
       } catch (error) {
         console.error('Hubo un error al realizar la petición:', error);
