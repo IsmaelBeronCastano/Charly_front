@@ -8,9 +8,11 @@ const Main = () => {
         <section className="flex jusify-center items-center md:w-1/2 mb-10">
             <div className="text-left">
                 <p className="text-xl font-bold mt-3 mb-2 pl-1">Esta es una <span className="text-purple-400">API</span> donde poder consultar parte de la discografía de <span className="text-purple-600">Charly</span> en solitario</p>
-                <p className="text-xl font-bold mt-3 mb-2 pl-1">Desde Yendo de la cama al living hasta Random</p>
-                <p className="text-xl font-bold mt-3 mb-2 pl-1">Está en construcción, la información actual es ficticia</p>
+                <p className="text-xl font-bold mt-3 mb-2 pl-1">Desde Pubis Angelical hasta Random</p>
+                <p className="text-xl font-bold mt-3 mb-2 pl-1">Recopilatorios y bandas sonoras a excepción de Pubis Angelical y 60x60 no están incluidas</p>
+                <p className="text-xl font-bold mt-3 mb-2 pl-1">Informacion extraida de la wikipedia</p>
                 <p className="text-xl font-bold mt-3 mb-2 pl-1">Poco a poco se irán subiendo más funcionalidades con información verificada y ampliada</p>
+                <p className="text-xl font-bold mt-3 mb-2 pl-1">Puedes enviar tus sugerencias a charlyapi2024@gmail.com</p>
                 <p className="text-xl font-bold mt-3 mb-2 pl-1">¡Gracias!</p>
 
                 <div className="max-h-[400px] overflow-hidden flex justify-center w-full">
@@ -23,7 +25,6 @@ const Main = () => {
                     <p className="mt-4"><span>Para el álbum: </span>discos/album/NombreDelAlbumEnPascalCase</p>
                     <p><span>Para la fecha: </span>discos/fecha/1996</p>
                     <p><span>Para la canción: </span>/cancion/TituloDeLaCancionEnPascalCase</p>
-                    <p><span>Para los músicos en cada disco: </span>/musicos</p>
                     <p><span>Para buscar músicos por nombre: </span>/musicos/NombreApellidoEnPascalCase</p>
                   </div>
                 </div>
