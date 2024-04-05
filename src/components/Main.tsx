@@ -13,7 +13,6 @@ const Main = () => {
                 <p className="text-xl font-bold mt-3 mb-2 pl-1">La informacion ha sido extraída de la wikipedia</p>
                 <p className="text-xl font-bold mt-3 mb-2 pl-1">Poco a poco se irán incorporando más funcionalidades con información verificada y ampliada</p>
                 <p className="text-xl font-bold mt-3 mb-2 pl-1">Las letras se irán subiendo progresivamente. No se incluyen letras de otras formaciones de las que Charly fue integrante</p>
-                <p className="text-xl font-bold mt-3 mb-2 pl-1">Las canciones que tienen una ñ se sustituye por ni</p>
                 <p className="text-xl font-bold mt-3 mb-2 pl-1">Los paréntesis de los titulos que tienen algunas canciones se han obviado junto a su contenido</p>
                 <p className="text-xl font-bold mt-3 mb-2 pl-1">Puedes enviar tus sugerencias a charlyapi2024@gmail.com</p>
                 <p className="text-xl font-bold mt-3 mb-2 pl-1">¡Gracias!</p>
