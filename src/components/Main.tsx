@@ -28,9 +28,9 @@ const Main = () => {
                     <p><span>Para la fecha: </span>discos/fecha/1996</p>
                     <p><span>Para la canción: </span>discos/cancion/TituloDeLaCancionEnPascalCase</p>
                     <p><span>Para buscar músicos por nombre: </span>/musicos/NombreApellidoEnPascalCase</p>
+                    <p><span>Para buscar músicos por álbum: </span>/musicos/album/NombreDelAlbumEnPascalCase</p>
                     <p><span>Para buscar letra por titulo: </span>/letras/TituloLetraEnPascalCase</p>
                     <p><span>Para buscar letra por id: </span>/letras/id/2</p>
-                    <p><span>Para buscar músicos por álbum: </span>/musicos/album/NombreDelAlbumEnPascalCase</p>
                   </div>
                 </div>
             </div>
