@@ -12,6 +12,9 @@ const Main = () => {
                 <p className="text-xl font-bold mt-3 mb-2 pl-1">Recopilatorios y bandas sonoras a excepción de Pubis Angelical y 60x60 no están incluidas</p>
                 <p className="text-xl font-bold mt-3 mb-2 pl-1">La informacion ha sido extraída de la wikipedia</p>
                 <p className="text-xl font-bold mt-3 mb-2 pl-1">Poco a poco se irán incorporando más funcionalidades con información verificada y ampliada</p>
+                <p className="text-xl font-bold mt-3 mb-2 pl-1">Las letras se irán subiendo progresivamente. No se incluyen letras de otras formaciones de las que Charly fue integrante</p>
+                <p className="text-xl font-bold mt-3 mb-2 pl-1">Las canciones que tienen una ñ se sustituye por ni</p>
+                <p className="text-xl font-bold mt-3 mb-2 pl-1">Los paréntesis de los titulos que tienen algunas canciones se han obviado junto a su contenido</p>
                 <p className="text-xl font-bold mt-3 mb-2 pl-1">Puedes enviar tus sugerencias a charlyapi2024@gmail.com</p>
                 <p className="text-xl font-bold mt-3 mb-2 pl-1">¡Gracias!</p>
 
@@ -26,6 +29,8 @@ const Main = () => {
                     <p><span>Para la fecha: </span>discos/fecha/1996</p>
                     <p><span>Para la canción: </span>discos/cancion/TituloDeLaCancionEnPascalCase</p>
                     <p><span>Para buscar músicos por nombre: </span>/musicos/NombreApellidoEnPascalCase</p>
+                    <p><span>Para buscar letra por titulo: </span>/letras/TituloLetraEnPascalCase</p>
+                    <p><span>Para buscar letra por id: </span>/letras/id/2</p>
                   </div>
                 </div>
             </div>
