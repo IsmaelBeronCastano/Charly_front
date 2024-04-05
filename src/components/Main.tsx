@@ -19,7 +19,7 @@ const Main = () => {
                   <NavigationResult />
                 </div>
                 <div id="api" className="mt-6 flex flex-col items-center justify-center">
-                  <div className="text-left">
+                  <div className="text-left pl-1">
                     <p className="text-xl font-bold mt-3 mb-2">El uso es sencillo, añadir al endpoint: </p>
                     <p className="text-xl">https://charly-api2024.up.railway.app/api/v2/</p> 
                     <p className="mt-4"><span>Para el álbum: </span>discos/album/NombreDelAlbumEnPascalCase</p>
